@@ -12,7 +12,7 @@ BUT000 << [John.name, John.type]
 Paul = Business_Partner.new(:name => "Paul")
 BUT000 << [Paul.name, Paul.type]
 BUT000.each {|x| puts "#{x}"}
-
+#comments
 
 #rel_1 = Relationship.new(:type => :partner, :strength => 10)
 #puts rel_1.strength
